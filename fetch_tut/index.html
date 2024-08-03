@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+ </head>
+ <body>
+   <div id="poke-entry">
+      <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+      <button onclick="fetchData()" id="fetch-button">Fetch Pokemon</button><br>
+   </div>
+    
+
+   <div id="poke-table" style="display: none;">
+      <table class="content-table">
+         <thead>
+            <tr>
+               <th>Sprite</th>
+               <th>Abilities</th>
+               <th>Cries</th>
+               <th>Pokedex#</th>
+               <th>Weight</th>
+            </tr>
+         </thead>
+         
+         <tr>
+            <td><img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none;"></td>
+   
+            <td>
+               <ul id="pokemonAbilities">
+           
+               </ul>
+            </td>
+   
+            <td>
+               <audio controls muted id="pokemonCries">
+                  <source src="" type="">
+                  Your browser does not support the audio element
+               </audio>
+            </td>
+            
+            <td>
+               <p id="pokemonID" style="display: none;"></p>
+            </td>
+   
+            <td>
+               <p id="pokemonWeight" style="display: none;"></p>
+            </td>
+         </tr>
+      </table>
+   </div>
+    
+ </body>
+ </html>
+

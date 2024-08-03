@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    margin: auto;
+    margin-top: -350px;
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+}
+
+.content-table thead tr{
+    background: rgb(108, 207, 247);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 12px 15px;
+    text-align: center;
+
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+#poke-entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    height: 90vh; /*vh = viewport height  (relative to the height of the viewport*/
+}
+
+input[type="text"]{
+    width: 250px;
+    text-align: left;
+    border-radius: 1px;
+    background-color: #dddddd;
+    font-size: 18px;
+}
+
+#fetch-button{
+    width: 250px;
+    font-size: 18px;
+    background-color: rgb(108, 207, 247);
+}
+
+
